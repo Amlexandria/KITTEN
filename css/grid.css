@@ -48,9 +48,45 @@
 .col-12{ width:100%; }
 
 /** Primer Breakpoint de bootstrap **/
-/* @media all and (max-width:576px){
-    [class *='col-'] {
-       width: 100%;
+@media all and (min-width:768px){
+    .hide-on-desktop {
+      display: none;
     }
-} */
+}
+
+@media all and (max-width:768px){
+    .hide-on-tablet {
+      display: none;
+    }
+
+    main {
+      background-image: url("../assets/images/Copia de dawn.png");
+      background-position: center;
+      background-size: cover;
+      height: auto;
+    }
+}
+
+/** Segundo Breakpoint de bootstrap **/
+@media all and (max-width:576px){
+    .hide-on-desktop {
+      display: none;
+    }
+
+    .hide-on-tablet {
+      display: none;
+    }
+
+    #show-in-mobile{
+      display: block;
+    }
+
+    main {
+      background-image: url("../assets/images/Copia de night.jpg");
+      background-position: center;
+      background-size: cover;
+      height: auto;
+    }
+    
+}
 /** End of Grid System **/
