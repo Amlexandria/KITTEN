@@ -65,10 +65,12 @@
       background-size: cover;
       height: auto;
     }
+
 }
 
 /** Segundo Breakpoint de bootstrap **/
 @media all and (max-width:576px){
+
     .hide-on-desktop {
       display: none;
     }
@@ -87,6 +89,6 @@
       background-size: cover;
       height: auto;
     }
-    
+
 }
 /** End of Grid System **/
