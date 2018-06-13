@@ -1,0 +1,30 @@
+header {
+  box-sizing: border-box;
+  background-color: #58D68D;
+  height: 6rem;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: white;
+}
+
+main {
+  background-image: url("../assets/images/Copia de sunny-day.jpg");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+.relleno {
+  height: 100%;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 90%;
+  margin-bottom: 10%;
+}
